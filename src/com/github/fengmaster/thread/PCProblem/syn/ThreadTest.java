@@ -1,4 +1,4 @@
-package com.github.fengmaster.thread.syn;
+package com.github.fengmaster.thread.PCProblem.syn;
 
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;

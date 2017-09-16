@@ -1,4 +1,4 @@
-package com.github.fengmaster.thread.lock;
+package com.github.fengmaster.thread.PCProblem.lock;
 
 import java.util.Queue;
 import java.util.Random;

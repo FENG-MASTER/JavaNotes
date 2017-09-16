@@ -3,4 +3,4 @@
  *
  * 简单使用java自带的synchronized和object类中的wait和notify 实现生产者消费者模型
  */
-package com.github.fengmaster.thread.syn;
+package com.github.fengmaster.thread.PCProblem.syn;
