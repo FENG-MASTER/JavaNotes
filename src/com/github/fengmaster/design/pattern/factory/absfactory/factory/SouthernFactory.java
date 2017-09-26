@@ -12,6 +12,7 @@ import com.github.fengmaster.design.pattern.factory.absfactory.vegetable.Tropica
 public class SouthernFactory implements IAbsFactory {
     @Override
     public IFruit createFruit() {
+
         return new TropicalFruit();
     }
 

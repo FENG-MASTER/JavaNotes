@@ -6,6 +6,12 @@ package com.github.fengmaster.design.pattern.singleton;
  *
  * 缺点:有时候本单例根本用不到,但还是会创建对象,占用空间
  * 优点:简单,且适用于多线程环境
+ *
+ * {@link Singleton3}和第三种方法区别在于,1版本的单例模式,只要这个class被类加载器加载后,就会创建对象
+ * 而3版本的单例模式,就算class被加载,也不会创建对象,只有在显式调用了{@link Singleton3#getInstance()}函数的时候
+ * 才会创建单例对象
+ *
+ *
  */
 public class Singleton1 {
 
