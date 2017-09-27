@@ -9,22 +9,22 @@ package com.github.fengmaster.design.pattern.template;
  */
 public class ConcreteTemplate2 extends AbsTemplate{
     @Override
-    public int process1(int input) {
+    protected int process1(int input) {
         return input;
     }
 
     @Override
-    public int process2(int input) {
+    protected int process2(int input) {
         return 5-input;
     }
 
     @Override
-    public int process3(int input) {
+    protected int process3(int input) {
         return input%9;
     }
 
     @Override
-    public boolean isPlusOne() {
+    protected boolean isPlusOne() {
         return false;
     }
 }

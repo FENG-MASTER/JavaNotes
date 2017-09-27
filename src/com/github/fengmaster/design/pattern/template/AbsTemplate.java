@@ -14,21 +14,21 @@ public abstract class AbsTemplate {
      * @param input 输入
      * @return 输出
      */
-    public abstract int process1(int input);
+    protected abstract int process1(int input);
 
     /**
      * 算法过程2
      * @param input 输入
      * @return 输出
      */
-    public abstract int process2(int input);
+    protected abstract int process2(int input);
 
     /**
      * 算法过程3
      * @param input 输入
      * @return 输出
      */
-    public abstract int process3(int input);
+    protected abstract int process3(int input);
 
     /**
      * 算法执行函数
@@ -50,7 +50,7 @@ public abstract class AbsTemplate {
      * 钩子:负责决定是否需要加一
      * @return 标志位
      */
-    public boolean isPlusOne() {
+    protected boolean isPlusOne() {
         return true;
     }
 
