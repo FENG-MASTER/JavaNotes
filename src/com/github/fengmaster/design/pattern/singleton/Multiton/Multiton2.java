@@ -11,6 +11,8 @@ import java.util.concurrent.Executors;
  * 单例模式拓展:多例模式
  * <p>
  * 应用场景:线程池等其他相关的资源场景
+ *
+ * 写法还是参照了单例模式的某骚写法{@link com.github.fengmaster.design.pattern.singleton.Singleton3}
  */
 public class Multiton2 {
 
